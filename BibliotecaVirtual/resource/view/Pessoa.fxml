@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="74.0" layoutY="14.0" prefHeight="20.0" prefWidth="60.0" text="Id" />
+      <Button fx:id="btnSalvar" layoutX="242.0" layoutY="276.0" mnemonicParsing="false" prefHeight="61.0" prefWidth="117.0" text="Salvar" />
+      <Label layoutX="74.0" layoutY="81.0" prefHeight="20.0" prefWidth="60.0" text="Nome " />
+      <TextField fx:id="IdText" layoutX="74.0" layoutY="44.0" />
+      <TextField fx:id="NomeText" layoutX="73.0" layoutY="105.0" prefHeight="25.0" prefWidth="221.0" />
+      <TextField fx:id="endText" layoutX="73.0" layoutY="188.0" />
+      <TextField fx:id="DtNascText" layoutX="392.0" layoutY="69.0" />
+      <TextField fx:id="TpText" layoutX="392.0" layoutY="149.0" />
+      <Label layoutX="74.0" layoutY="151.0" prefHeight="20.0" prefWidth="60.0" text="Endereço" />
+      <Label layoutX="392.0" layoutY="34.0" prefHeight="20.0" prefWidth="136.0" text="Data de Nascimento" />
+      <Label layoutX="392.0" layoutY="118.0" prefHeight="20.0" prefWidth="149.0" text="Tipo Pessoa" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.edu.ifms.biblioteca.controller.LivrosController">
+   <children>
+      <Label layoutX="52.0" layoutY="107.0" prefHeight="20.0" prefWidth="60.0" text="Autores" />
+      <Button fx:id="btnSalvar" layoutX="234.0" layoutY="293.0" mnemonicParsing="false" onAction="#Salvar" prefHeight="61.0" prefWidth="117.0" text="Salvar" />
+      <Label layoutX="351.0" layoutY="47.0" prefHeight="20.0" prefWidth="107.0" text="Ano de Publicação" />
+      <TextField fx:id="txtAut" layoutX="52.0" layoutY="138.0" />
+      <TextField fx:id="txtAnoPL" layoutX="351.0" layoutY="82.0" />
+      <TextField fx:id="txtVol" layoutX="52.0" layoutY="200.0" />
+      <TextField fx:id="txtISBN" layoutX="351.0" layoutY="158.0" />
+      <Label layoutX="52.0" layoutY="173.0" prefHeight="20.0" prefWidth="60.0" text="Volume" />
+      <Label layoutX="351.0" layoutY="130.0" prefHeight="20.0" prefWidth="60.0" text="ISBN" />
+      <Label layoutX="213.0" text="Livros">
+         <font>
+            <Font name="Arial Black" size="30.0" />
+         </font>
+      </Label>
+      <Label layoutX="52.0" layoutY="59.0" text="Id" />
+      <TextField fx:id="txtIdLivros" layoutX="52.0" layoutY="82.0" />
+   </children>
+</AnchorPane>
