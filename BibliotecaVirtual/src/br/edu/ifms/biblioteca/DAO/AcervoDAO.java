@@ -18,12 +18,12 @@ public class AcervoDAO {
 
 	
 	public void inserir(Acervo acervo) {
-		String inserir = "insert into Acervo (id,codigo, titulo, editora, quantidade) values (?,?,?,?,?)";
+		String inserir = "insert into Acervo (codigo, titulo, editora, quantidade) values (?,?,?,?)";
 		
 		try {// desenvolver essa mesma estrutura para insert, deletar, update
 			PreparedStatement stmt = con.prepareStatement(inserir);
 			
-			stmt.setInt(1, acervo.getId());
+			//stmt.setInt(1, acervo.getId());
 			stmt.setInt(2, acervo.getCodigo());
 			stmt.setString(3, acervo.getTitulo());
 			stmt.setString(4, acervo.getEditora());
