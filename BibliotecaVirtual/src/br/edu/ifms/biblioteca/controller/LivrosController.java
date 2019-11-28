@@ -39,9 +39,7 @@ public class LivrosController {
     	
     	LivrosDAO daolivros = new LivrosDAO();
     	daolivros.inserir(livros);
-    	daolivros.deletar(livros);
-    	daolivros.update(livros);
-    	
+   
     
     	
 

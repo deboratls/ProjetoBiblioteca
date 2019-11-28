@@ -1,22 +1,11 @@
 package app;
 
-import java.time.LocalDate;
-
-import br.edu.ifms.biblioteca.DAO.AcervoDAO;
-import br.edu.ifms.biblioteca.DAO.AlunoDAO;
-import br.edu.ifms.biblioteca.DAO.EmprestimoDAO;
-import br.edu.ifms.biblioteca.DAO.FuncionarioDAO;
 import br.edu.ifms.biblioteca.DAO.LivrosDAO;
-import br.edu.ifms.biblioteca.DAO.MultaDAO;
-import br.edu.ifms.biblioteca.DAO.PeriodicosDAO;
-import br.edu.ifms.biblioteca.model.Acervo;
-import br.edu.ifms.biblioteca.model.Aluno;
-import br.edu.ifms.biblioteca.model.Emprestimo;
-import br.edu.ifms.biblioteca.model.Funcionario;
 import br.edu.ifms.biblioteca.model.Livros;
-import br.edu.ifms.biblioteca.model.Multa;
-import br.edu.ifms.biblioteca.model.Periodicos;
 import javafx.application.Application;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Parent;
+import javafx.scene.Scene;
 import javafx.stage.Stage;
 
 public class Inicio extends Application{
@@ -29,18 +18,18 @@ public class Inicio extends Application{
 
 	@Override
 	public void start(Stage primaryStage) throws Exception {
-//		try {
-//
-//			FXMLLoader telaacervo = new FXMLLoader(getClass().getResource("/view/Aluno.fxml"));
-//			Parent acervo = telaacervo.load();
-//			//BorderPane root = new BorderPane();
-//			Scene scene = new Scene(acervo,700,400);
-//			scene.getStylesheets().add(getClass().getResource("/css/application.css").toExternalForm());
-//			primaryStage.setScene(scene);
-//			primaryStage.show();
-//		} catch(Exception e) {
-//			e.printStackTrace();
-//		}
+		try {
+
+			FXMLLoader telaacervo = new FXMLLoader(getClass().getResource("/view/Aluno.fxml"));
+			Parent acervo = telaacervo.load();
+			//BorderPane root = new BorderPane();
+			Scene scene = new Scene(acervo,700,400);
+			scene.getStylesheets().add(getClass().getResource("/css/application.css").toExternalForm());
+			primaryStage.setScene(scene);
+			primaryStage.show();
+		} catch(Exception e) {
+			e.printStackTrace();
+		}
 		
 		
 		/*
@@ -113,17 +102,17 @@ public class Inicio extends Application{
 		
 		
 		
-		  Livros lv = new Livros(); 
-		  lv.setAutores("kmei"); 
-		  lv.setAnoPublicacao(932);
-		  lv.setISBN(4567);
-		  lv.setVolume(2); lv.setISBN(8787);
-		  
-		  LivrosDAO daoLivros = new LivrosDAO(); daoLivros.inserir(lv);
-		  
-		  LivrosDAO daoLivrosdel = new LivrosDAO(); daoLivros.deletar(lv);
-		  
-		  LivrosDAO daoLivrosup = new LivrosDAO(); daoLivros.update(lv);
+//		  Livros lv = new Livros(); 
+//		  lv.setAutores("kmei"); 
+//		  lv.setAnoPublicacao(932);
+//		  lv.setISBN(4567);
+//		  lv.setVolume(2); lv.setISBN(8787);
+//		  
+//		  LivrosDAO daoLivros = new LivrosDAO(); daoLivros.inserir(lv);
+//		  
+//		  LivrosDAO daoLivrosdel = new LivrosDAO(); daoLivros.deletar(lv);
+//		  
+//		  LivrosDAO daoLivrosup = new LivrosDAO(); daoLivros.update(lv);
 		 
 		  //-------------------------------------------
 		  

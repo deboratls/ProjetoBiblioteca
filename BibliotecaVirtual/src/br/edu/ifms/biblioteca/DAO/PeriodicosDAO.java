@@ -15,7 +15,7 @@ public class PeriodicosDAO {
 		con = conexao.openConnection();
 	}
 	public void inserir(Periodicos periodicos) {
-		String inserir = "insert into periodicos (id, autores, ISSN) values (?,?,?)";
+		String inserir = "insert into periodicos (autores, ISSN) values (?,?)";
 		try {// desenvolver essa mesma estrutura para insert, deletar, update
 			PreparedStatement stmt = con.prepareStatement(inserir);
 			

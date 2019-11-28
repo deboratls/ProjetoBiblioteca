@@ -46,10 +46,7 @@ public class AcervoController {
     	
     	AcervoDAO daoAcervo = new AcervoDAO(); 
     	daoAcervo.inserir(acervo);
-    	daoAcervo.deletar(acervo);
-    	daoAcervo.update(acervo);
     	
-    	System.out.println("Ola debora");
 
     }
 

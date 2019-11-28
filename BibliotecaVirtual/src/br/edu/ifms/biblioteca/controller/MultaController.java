@@ -31,8 +31,7 @@ public class MultaController {
     	
     	MultaDAO daomult = new MultaDAO();
     	daomult.inserir(multa);
-    	daomult.deletar(multa);
-    	daomult.update(multa);
+    	
     	
     	
     	

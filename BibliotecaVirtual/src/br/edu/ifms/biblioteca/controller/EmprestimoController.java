@@ -39,8 +39,7 @@ public class EmprestimoController {
     	
     	EmprestimoDAO daoEmp = new EmprestimoDAO(); 
     	daoEmp.inserir(emp);
-    	daoEmp.deletar(emp);
-    	daoEmp.update(emp);
+    	
     	
     }
 

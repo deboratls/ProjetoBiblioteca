@@ -33,8 +33,7 @@ public class FuncionarioController {
     	
     	FuncionarioDAO daofunc = new FuncionarioDAO(); 
     	daofunc.inserir(func);
-    	daofunc.deletar(func);
-    	daofunc.update(func);
+    
 
     }
 

@@ -39,8 +39,7 @@ public class AlunoControler {
     	//Colocar o método inserir aluno  para cada classe
     	AlunoDAO daoAluno = new AlunoDAO(); 
     	daoAluno.inserir(aluno);
-    	daoAluno.deletar(aluno);
-    	daoAluno.update(aluno);
+
     }
 
     @FXML
